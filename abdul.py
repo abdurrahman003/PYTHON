@@ -26,5 +26,5 @@ while True:
     if scores[i] > 100:
         break
 
-winner = [i for i in scores if scores[i] == max(scores.values())]
+winner = [i for i in scores if scores[i] == max(scores.values())
 print('{} is the winner!'.format(*winner))
